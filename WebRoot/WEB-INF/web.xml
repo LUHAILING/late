@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>dormitory</display-name>
+  
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>com.gxuwz.lab.filter.CharacterEncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysStudentServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysClassesServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysClassesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysInstructorServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysInstructorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysManagerServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysDepartmentServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysDepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysDormServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysDormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysLateServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysLateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysCheckInServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysCheckInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <servlet-class>com.gxuwz.dorm.servlet.SysAdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SysStudentServlet</servlet-name>
+    <url-pattern>/SysStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysClassesServlet</servlet-name>
+    <url-pattern>/SysClassesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysInstructorServlet</servlet-name>
+    <url-pattern>/SysInstructorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysManagerServlet</servlet-name>
+    <url-pattern>/SysManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysDepartmentServlet</servlet-name>
+    <url-pattern>/SysDepartmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysDormServlet</servlet-name>
+    <url-pattern>/SysDormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysLateServlet</servlet-name>
+    <url-pattern>/SysLateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysCheckInServlet</servlet-name>
+    <url-pattern>/SysCheckInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <url-pattern>/SysAdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+   
+    <welcome-file>login.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
